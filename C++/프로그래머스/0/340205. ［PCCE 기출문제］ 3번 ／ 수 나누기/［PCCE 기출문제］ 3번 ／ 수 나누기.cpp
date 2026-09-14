@@ -8,7 +8,7 @@ int main(void) {
     
     int answer = 0;
     
-    while(number > 0){
+    while(number > 9){
         answer += number % 100;
         number /= 100;
     }
